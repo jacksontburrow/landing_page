@@ -3,14 +3,18 @@ font-family: 'Hero', sans-serif;
 }
 
 body {
+height: 100%;
+margin: 0;
 
 }
 
 .header {
     background-color: #1F2937; /* Dark blue-gray */
-    display: flex;
-    justify-content: space-between;
+
     
+}
+.content {
+
 }
 .logo {
     color: #F9FAF8;
@@ -24,7 +28,6 @@ body {
 }
 .container-one {
     background-color: #1F2937;
-    display: flex;
 }
 
 .one-content {
@@ -66,8 +69,6 @@ button {
 
 .two-images{
     font-size: 18px;
-    display: flex;
-    justify-content: space-between
 }
 
 .container-three {

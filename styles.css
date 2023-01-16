@@ -15,7 +15,9 @@ border: 1px solid red;
 .header {
     background-color: #1F2937; /* Dark blue-gray */
 
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .content {
 flex: 1;

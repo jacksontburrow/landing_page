@@ -1,5 +1,5 @@
 * {
-font-family: 'Hero', sans-serif;
+font-family: 'roboto', sans-serif;
 }
 
 body {
@@ -14,6 +14,7 @@ border: 1px solid red;
 
 .header {
     background-color: #1F2937; /* Dark blue-gray */
+    padding: 20px 150px;
 
     display: flex;
     justify-content: space-between;
@@ -30,20 +31,26 @@ border: 1px solid red;
     color: #F9FAF8;
     font-size: 24px;
     font-weight: bolder;
-    
+
 }
 .header-links a{
     color: #E5E7EB;
     text-decoration: none;
+    font-size: 18px;
+}
+.header-links {
+    display: flex;
+    gap: 16px;
 }
 .container-one {
     background-color: #1F2937;
     flex: 1;
+
+    display: flex;
 }
 
 .one-content {
-
-
+    flex:1 1 40%;
 }
 
 .main-text {
@@ -59,6 +66,7 @@ border: 1px solid red;
 
 .one-image {
     color: #F9FAF8;
+    flex: 1 1 60%;
 }
 
 button {

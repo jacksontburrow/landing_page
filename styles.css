@@ -173,10 +173,46 @@ flex-direction: column;
 .four-content {
     background: #3882F6;
     color: #F9FAF8;
+    margin: 80px 150px;
+    padding: 10px 75px;
+    display: flex;
+    flex: 1;
+
+    border: 1px solid red;
+}
+
+.four-text {
+    border: 1px solid red;
+    flex-basis: 60%;
+}
+
+.four-heading{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.four-button {
+    border: 1px solid red;
+    display: flex;
+    flex-basis: 40%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.four-button button {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px 20px;
 }
 
 .footer {
     background-color: #1F2937;
     color: #E5E7EB;
     text-align: center;
+    padding: 30px 0px;
 }
